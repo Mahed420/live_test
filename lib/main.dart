@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 
 import 'Car.dart';
 
@@ -9,5 +8,5 @@ void main() {
   print('Brand: ${car.brand}');
   print('Model: ${car.model}');
   print('Year: ${car.year}');
-  print('Car Age: ${car.carAge(2024)} years');
+  print('Car Age: ${car.carAge()} years');
 }

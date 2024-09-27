@@ -13,7 +13,7 @@ class Car {
   });
 
 
-  int carAge(int currentYear) {
-    return currentYear - year;
+  int carAge() {
+    return DateTime.now().year - year;
   }
 }
